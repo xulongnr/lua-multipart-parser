@@ -6,7 +6,7 @@ A Lua library to parse `multipart/form-data` data.
 
 ```
 local multipart = require "multipart"
-local multipart_data = multipart()
+local multipart_data = multipart(8192)  -- 8192, chunk size
 local data = multipart_data:get()
 ```
 
