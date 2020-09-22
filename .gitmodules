@@ -1,0 +1,3 @@
+[submodule "stringy"]
+	path = lua-stringy
+	url = https://github.com/brentp/lua-stringy.git
